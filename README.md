@@ -11,10 +11,8 @@ All my good dots
 # Instructions
 
 ```
-apt update && apt -y install wget
-wget https://raw.githubusercontent.com/GreatAlexander/dots/main/setup.sh
-. setup.sh
-rm setup.sh
+git clone git@github.com:GreatAlexander/dots.git .dots
+cd .dots && bash setup.sh
 ```
 
 Heavily inspired by the great https://github.com/svepe/dots

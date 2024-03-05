@@ -1,8 +1,6 @@
-apt update && apt -y install git curl libfuse2
+#!/bin/bash
 
-git clone https://github.com/GreatAlexander/dots.git .dots
-
-cd .dots
+sudo apt update && sudo apt -y install git curl libfuse2
 
 . install_tmux.sh
 . install_starship.sh
