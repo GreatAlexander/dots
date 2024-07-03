@@ -6,7 +6,7 @@ sudo apt update && sudo apt install -y fish
 
 chsh -s /usr/bin/fish
 
-mkdir -p /home/alex/.config/fish/functions
+mkdir -p $HOME/.config/fish/functions
 
 ln -sf $(pwd)/fish/config.fish $HOME/.config/fish/config.fish
 ln -s $(pwd)/fish/fish_greeting.fish $HOME/.config/fish/functions/fish_greeting.fish

@@ -14,7 +14,7 @@ mv $(pwd)/tmux.appimage /usr/bin/tmux
 ln -sf $(pwd)/tmux.conf $HOME/.tmux.conf
 
 # Install plugin manager
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
 
 # Install plugins
 bash $HOME/.tmux/plugins/tpm/bin/install_plugins
