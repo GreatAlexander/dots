@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install dependencies
-sudo apt update && sudo apt -y install fzf
+sudo apt update && sudo apt -y install fzf software-properties-common lsb-release cmake
 
 # Download tmux
 wget https://github.com/nelsonenzo/tmux-appimage/releases/latest/download/tmux.appimage
