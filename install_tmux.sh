@@ -8,7 +8,7 @@ wget https://github.com/nelsonenzo/tmux-appimage/releases/latest/download/tmux.a
 sudo chmod u+x tmux.appimage
 
 # Install binary
-mv $(pwd)/tmux.appimage /usr/bin/tmux
+sudo mv $(pwd)/tmux.appimage /usr/bin/tmux
 
 # Install config
 ln -sf $(pwd)/tmux.conf $HOME/.tmux.conf
